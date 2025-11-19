@@ -1,0 +1,62 @@
+.flex-container-12 {
+  display: flex;
+  flex-wrap: wrap;
+  --flex-items: 12;
+}
+
+.flex-gap-20 {
+  gap: 20px;
+  --flex-gap: 20px;
+}
+
+.flex-item {
+  flex-basis: calc(((100% / var(--flex-items) * var(--flex-item-span)) - (var(--flex-gap) * (var(--flex-items) - var(--flex-item-span)) / var(--flex-items))));
+}
+
+.flex-item-1 {
+  --flex-item-span: 1;
+}
+
+.flex-item-2 {
+  --flex-item-span: 2;
+}
+
+.flex-item-3 {
+  --flex-item-span: 3;
+}
+
+.flex-item-4 {
+  --flex-item-span: 4;
+}
+
+.flex-item-5 {
+  --flex-item-span: 5;
+}
+
+.flex-item-6 {
+  --flex-item-span: 6;
+}
+
+.flex-item-7 {
+  --flex-item-span: 7;
+}
+
+.flex-item-8 {
+  --flex-item-span: 8;
+}
+
+.flex-item-9 {
+  --flex-item-span: 9;
+}
+
+.flex-item-10 {
+  --flex-item-span: 10;
+}
+
+.flex-item-11 {
+  --flex-item-span: 11;
+}
+
+.flex-item-12 {
+  --flex-item-span: 12;
+}
